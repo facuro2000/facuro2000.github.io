@@ -1,0 +1,69 @@
+h1{
+	color:white;
+
+}
+body{
+    font-family: "poppins", sans-serif;
+    background-image: url("https://i.pinimg.com/originals/ff/af/4d/ffaf4d9d83334c64c2f2edb6b201db3f.gif");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.contenedor-principal {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;    
+}
+
+.tarjeta{
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    background-color: #ADBBBF;
+    opacity: 0.72;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.error {
+    color: black;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin: 0 0.6rem;
+}
+
+button {
+    all: initial;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contenedor-botones{
+    display: flex;
+    color: black;
+}
+
+.mensaje-contenedor {
+    display: flex;
+    flex-direction: column;
+    
+}
+input {
+    all: initial;
+    font: inherit;
+    color: black;
+    padding: 1em 0.5em;
+}
