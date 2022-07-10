@@ -67,3 +67,8 @@ input {
     color: black;
     padding: 1em 0.5em;
 }
+
+footer{
+  color: white;
+  text-align: center;	
+}
